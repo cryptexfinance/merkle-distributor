@@ -1,0 +1,14 @@
+{
+  "name": "merkle-distributor",
+  "version": "1.0.0",
+  "description": "CTX airdrop distributor",
+  "main": "index.js",
+  "repository": "https://github.com/cryptexfinance/merkle-distributor",
+  "author": "@CryptexFinance",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17"
+  }
+}
