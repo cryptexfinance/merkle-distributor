@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.6;
 
-import ".././MerkleDistributor.sol";
+import "../MerkleDistributor.sol";
 import "../../lib/ds-test/src/test.sol";
 
 contract MerkleDistributorTest is DSTest {

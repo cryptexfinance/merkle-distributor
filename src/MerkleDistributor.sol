@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.6;
 
-import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
+//import "../lib/zeppelin-solidity/contracts/utils/cryptography/MerkleProof.sol";
 
 contract MerkleDistributor {
    address public immutable override token;
