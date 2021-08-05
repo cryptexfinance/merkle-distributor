@@ -1,14 +1,32 @@
 {
-  "name": "merkle-distributor",
-  "version": "1.0.0",
-  "description": "CTX airdrop distributor",
-  "main": "index.js",
-  "repository": "https://github.com/cryptexfinance/merkle-distributor",
-  "author": "@CryptexFinance",
-  "license": "MIT",
-  "dependencies": {
-    "@openzeppelin/contracts": "^4.2.0",
-    "prettier": "^2.3.2",
-    "prettier-plugin-solidity": "^1.0.0-beta.17"
-  }
+	"name": "merkle-distributor",
+	"version": "1.0.0",
+	"description": "CTX airdrop distributor",
+	"main": "index.js",
+	"repository": "https://github.com/cryptexfinance/merkle-distributor",
+	"author": "@CryptexFinance",
+	"license": "MIT",
+	"scripts": {
+		"precompile": "rimraf ./build/",
+		"compile": "npx hardhat compile",
+		"pretest": "yarn compile",
+		"test": "npx hardhat test",
+		"deploy": "npx hardhat deploy",
+		"generate-merkle-root": "ts-node scripts/generate-merkle-root.ts",
+		"generate-merkle-root:example": "ts-node scripts/generate-merkle-root.ts --input scripts/example.json",
+		"prepublishOnly": "yarn test"
+	},
+	"dependencies": {
+		"@openzeppelin/contracts": "^4.2.0",
+		"@types/node": "^15.0.2",
+		"axios": "^0.21.1",
+		"commander": "6.1.0",
+		"ethereumjs-util": "^7.1.0",
+		"ethers": "^5.4.3",
+		"prettier": "^2.3.2",
+		"prettier-plugin-solidity": "^1.0.0-beta.17",
+		"rimraf": "^3.0.2",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.2.4"
+	}
 }
