@@ -8,13 +8,21 @@ import "./interfaces/IMerkleDistributor.sol";
 
 contract MerkleDistributor is IMerkleDistributor {
    address public immutable override token;
+   address public immutable treasury;
    bytes32 public immutable override merkleRoot;
+   uint256 public immutable timeout;
    // This is a packed array of booleans.
    mapping(uint256 => uint256) private claimedBitMap;
 
-   constructor(address token_, bytes32 merkleRoot_) {
+   constructor(
+      address token_,
+      bytes32 merkleRoot_,
+      address treasury_
+   ) {
       token = token_;
       merkleRoot = merkleRoot_;
+      treasury = treasury_;
+      timeout = block.timestamp + 2 weeks;
    }
 
    function isClaimed(uint256 index) public view override returns (bool) {
@@ -56,5 +64,13 @@ contract MerkleDistributor is IMerkleDistributor {
       );
 
       emit Claimed(index, account, amount);
+   }
+
+   function endAirdrop() public {
+      require(
+         block.timestamp > timeout,
+         "MerkleDistributor: Timeout hasn't expired"
+      );
+      IERC20(token).transfer(treasury, IERC20(token).balanceOf(address(this)));
    }
 }

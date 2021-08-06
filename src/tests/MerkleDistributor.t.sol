@@ -5,6 +5,7 @@ pragma solidity 0.8.6;
 import "../MerkleDistributor.sol";
 import "../mocks/Ctx.sol";
 import "ds-test/test.sol";
+import "ds-test/hevm.sol";
 
 contract User {
    function doClaim(
@@ -17,13 +18,20 @@ contract User {
       dist.claim(index, account, amount, merkleProof);
       return true;
    }
+
+   function doWithdrawn(MerkleDistributor dist) public returns (bool) {
+      dist.endAirdrop();
+      return true;
+   }
 }
 
 contract MerkleDistributorTest is DSTest {
    MerkleDistributor distributor;
    Ctx token;
    User user1;
+   Hevm hevm;
 
+   address treasury = 0xa54074b2cc0e96a43048d4a68472F7F046aC0DA8;
    bytes32 merkleRoot =
       0xc3ac5fe0d8a8ce5f00939535eaf787781aa1b6452c8135d1b586ba453e0cdd08;
    address account1 = 0x097A3a6cE1D77a11Bda1AC40C08fDF9F6202103F;
@@ -70,9 +78,10 @@ contract MerkleDistributorTest is DSTest {
    ];
 
    function setUp() public {
+      hevm = Hevm(HEVM_ADDRESS);
       token = new Ctx(10_000_000 ether);
       user1 = new User();
-      distributor = new MerkleDistributor(address(token), merkleRoot);
+      distributor = new MerkleDistributor(address(token), merkleRoot, treasury);
    }
 
    function invariants_values() public {
@@ -122,5 +131,17 @@ contract MerkleDistributorTest is DSTest {
       user1.doClaim(distributor, 0, account1, 50 ether, merkleProof1);
    }
 
-   function testFail_timeNotPassed() public {}
+   function testFail_endAirdrop() public {
+      token.transfer(address(distributor), 10_000 ether);
+      distributor.endAirdrop();
+   }
+
+   function test_endAirdrop() public {
+      assertEq(token.balanceOf(treasury), 0);
+      token.transfer(address(distributor), 10_000 ether);
+      hevm.warp(2 weeks + 1 seconds);
+      distributor.endAirdrop();
+      assertEq(token.balanceOf(address(distributor)), 0);
+      assertEq(token.balanceOf(treasury), 10_000 ether);
+   }
 }
