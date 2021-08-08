@@ -6,6 +6,7 @@ artifacts
 .secret
 package-lock.json
 .env
+deploy.sh
 coverage/
 coverage.json
 
@@ -15,3 +16,6 @@ typechain/
 
 .idea/
 .idea/workspace.xml
+scripts/test.ts
+keystore/UTC--2021-08-07T23-27-28.526938370Z--a5810eb6cfeb12ccaae1226a4ad8a47cd1f616e6
+keystore/

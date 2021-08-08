@@ -1,172 +1,610 @@
 [
 	{
-		"address": "0x097a3a6ce1d77a11bda1ac40c08fdf9f6202103f",
-		"earnings": "50",
-		"reasons": "discord"
+		"address": "0x1FdD5814d3d23fBF93849B530c825eAd5f83D63f",
+		"earnings": "50"
 	},
 	{
-		"address": "0xfa6863a6507c94ed52e9276f8a72479924e77a36",
-		"earnings": "100",
-		"reasons": "discord,user"
+		"address": "0x76927E2CCAb0084BD19cEe74F78B63134b9d181E",
+		"earnings": "50"
 	},
 	{
-		"address": "0xef6fe9c9b351824c96e5c7a478c1e52badcbaee0",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xfc0d0ecc018a8df10843c0c996140e212cbd7a1e",
+		"earnings": "50"
 	},
 	{
-		"address": "0x397aca36ab63dbc1bdafc65a9916dcaee6c94e60",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x24046f8fa6b91dadbd468ab5d5ad574a54e43793",
+		"earnings": "50"
 	},
 	{
-		"address": "0x08d816526bdc9d077dd685bd9fa49f58a5ab8e48",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x0fBaD79C4468A074aC0972Bed4E6FBFC85fe73A4",
+		"earnings": "50"
 	},
 	{
-		"address": "0x3b16821a5dbbff86e4a88ea0621ec6be016cd79a",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x615a838ACcede19E85703B105CB7d021550BD824",
+		"earnings": "50"
 	},
 	{
-		"address": "0xa1d3c765e9a9655e8838bc4a9b16d5e6af024321",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x91B9a8e151A6DedC98A986e4A38D815e2664d385",
+		"earnings": "50"
 	},
 	{
-		"address": "0x3605780992537dcaae52a8da39238d6d883b7009",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x2961768cc229226e7d83c0141c133789487ba763",
+		"earnings": "50"
 	},
 	{
-		"address": "0x6561155263438064ffdd5fe2481d872f7dba95e7",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x5564e4fbd35f37d889973eb1af427a6a555e8ebc",
+		"earnings": "50"
 	},
 	{
-		"address": "0x54626c49ecd78b2ea5aeecaec82049ca26a04028",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x02Fd85e93f38660623F0E3228a319A0Dafab8901",
+		"earnings": "50"
 	},
 	{
-		"address": "0xacf4c2950107ef9b1c37faa1f9a866c8f0da88b9",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x9EEd5fCBb5384c98Af8413d31C4a716AB5387f8e",
+		"earnings": "50"
 	},
 	{
-		"address": "0xa289364347bfc1912ab672425abe593ec01ca56e",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xE5964Efe4e250c677f1F474509dE728a82D4Bd37",
+		"earnings": "50"
 	},
 	{
-		"address": "0x97209d58e75a799d41e4f5f7acf3aa675c9053f2",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x77BC51c7Dd3DDDAC29f865541f7F54bF2CBa5536",
+		"earnings": "50"
 	},
 	{
-		"address": "0xb262fa34e8fe3b664689945c9f3830a35d30e44b",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x46B756702b865AF30Cc0edba27e6d550e775A904",
+		"earnings": "50"
 	},
 	{
-		"address": "0xea271b7dc328b43a9af9d406484d1e79613f7127",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xF5A228295fBFbD2Bed744fF354Dbabbf20938e89",
+		"earnings": "50"
 	},
 	{
-		"address": "0xe248bf601aaf6dd25532e92e72630c4f9cdb0ed7",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x6E44D9950D4E7004F78685d77005fFF66DD63b97",
+		"earnings": "50"
 	},
 	{
-		"address": "0x60e7ba91afd79ce71635b9249072bd43a63ea390",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x849Fd5fff945b0Fb552BF123243C00EEDf476c2f",
+		"earnings": "50"
 	},
 	{
-		"address": "0x3f3b4c780dcfc39b24b0d09b1f1f1cf133b733d5",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xf1080A6365123EF783F3ebB4981f9d220402213b",
+		"earnings": "50"
 	},
 	{
-		"address": "0xb9b8de4b0b7020920c0476ff1d74d6c51aec7796",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x3821f061F9ba3d4A18213D89820A894f24EeF861",
+		"earnings": "50"
 	},
 	{
-		"address": "0xfde5cff51e4ec5495a86cf8d1b1f7b915eca02e0",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x7731F1e4cF3367F462e1FA20D356061A5C4Ec169",
+		"earnings": "50"
 	},
 	{
-		"address": "0xf8f0cb8b06b2ba827ae8e7915deb0cf796aec53b",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xEA7D443EcB40E2189d674256DfF3CC32b35C1430",
+		"earnings": "50"
 	},
 	{
-		"address": "0x110f1c53c546fb83fba121033ea22551e5e07193",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xCBcf63c193866aD82AE05db88Ac51047AB2B64Cf",
+		"earnings": "50"
 	},
 	{
-		"address": "0xdc2cf5cbfa31958ed32c3ace696ee6bf1a6a19f4",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xc9F625c82F248558948705360624A502FB957C54",
+		"earnings": "50"
 	},
 	{
-		"address": "0x217ba130ce2452d3793fd524c11ddee63898aff7",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x29ebCD4aCfd3fF9AA028377A8b1330D452694fC1",
+		"earnings": "50"
 	},
 	{
-		"address": "0xb827037835778e750b3ee18bc207c4830888140a",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xFEE5717F50769c148dF42bA9b2DC2D8BB9eceFf7",
+		"earnings": "50"
 	},
 	{
-		"address": "0x9f2942ff27e40445d3cb2aad90f84c3a03574f26",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xD60Af91Bfdb5dAADA1B3788FDd1C86d6d5259331",
+		"earnings": "50"
 	},
 	{
-		"address": "0x4a21fa249086f1227f4005398035340cdb318c20",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xb37d882730eCc495a1FAA4937eF3645790B00e89",
+		"earnings": "50"
 	},
 	{
-		"address": "0xd1edec711d5ea0b4b064b678ff4a13b2c2a5ce8b",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x0F46540678c7e6D2eF983B382CC07Fa815AB148c",
+		"earnings": "50"
 	},
 	{
-		"address": "0x9a3e204bd2f012122b228fa68bf97539da965d3b",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x1A51bD2D1eBcD646F398D8a6608bB3741a7bE613",
+		"earnings": "50"
 	},
 	{
-		"address": "0x7f46bb25460dd7dae4211ca7f15ad312fc7dc75c",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xb0e95A31c073BE2388720686f6Ca4cd77B991Ef7",
+		"earnings": "50"
 	},
 	{
-		"address": "0x5d509f653d7e4914af9da434bf25c53cd122763d",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x6694FC7DaB2F34B010bb87467f6CC6C2d4534f81",
+		"earnings": "50"
 	},
 	{
-		"address": "0xf7dbfe7dcfba501464008554e7c5edde8ab7b0ff",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0x4A35Dd01B9e259902996f7c436F379c2cE77e047",
+		"earnings": "50"
 	},
 	{
-		"address": "0x1db3439a222c519ab44bb1144fc28167b4fa6ee6",
-		"earnings": "50",
-		"reasons": "discord,user"
+		"address": "0xC3D461aE8e3B29a1DCA37729C4575e0D309E620D",
+		"earnings": "50"
 	},
 	{
-		"address": "0xd1f55571cbb04139716a9a5076aa69626b6df009",
-		"earnings": "50",
-		"reasons": "discord,bidder,user"
+		"address": "0xA0fa93efB404d4083AcA0F958E10A42d16521A70",
+		"earnings": "50"
+	},
+	{
+		"address": "0xf97020862f4282dFb21B781E7B760eE63E212dfE",
+		"earnings": "50"
+	},
+	{
+		"address": "0x68c81D07ed36Dc168cF073AA668d6d2DdE8f11ef",
+		"earnings": "50"
+	},
+	{
+		"address": "0x58531045854C0C2548ce0A192800558808c57c1a",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4c979b7648044a198E7E918f88F2C72F9544f37d",
+		"earnings": "50"
+	},
+	{
+		"address": "0x8DA1674D16fa5E5c8F4eFBC4540888BA9f1Fda4E",
+		"earnings": "50"
+	},
+	{
+		"address": "0xAf1Fd82B52490810280e20906433Ee7f720B7879",
+		"earnings": "50"
+	},
+	{
+		"address": "0x2cAd6658aE641A6CEE952739323F52eea0a0b730",
+		"earnings": "50"
+	},
+	{
+		"address": "0x9309a24Bf08aB2F5327d2B488982e8318717e92c",
+		"earnings": "50"
+	},
+	{
+		"address": "0xB3e1b74963301D2ebd72ECeae539007c3Aff3424",
+		"earnings": "50"
+	},
+	{
+		"address": "0xC04Bc1996320f27c0A6018cB370c9469a9Dd3a4C",
+		"earnings": "50"
+	},
+	{
+		"address": "0x74a64c78657F0b753035CAE35cbCa76Ac029827E",
+		"earnings": "50"
+	},
+	{
+		"address": "0xb67ed406fb511cca5763dd02f9b11cbad8991c17",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4821C31842bB7cb5A4980411F7E03BCD0BBDA539",
+		"earnings": "50"
+	},
+	{
+		"address": "0xc3552007F946CEE7B87E542011f20016feb8CBd4",
+		"earnings": "50"
+	},
+	{
+		"address": "0x8090487fcA05bbEe5f30117DF57dCA5630919A50",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4632D39cB2b64aCDBF1Df5bE19dAA1B77158CbFB",
+		"earnings": "50"
+	},
+	{
+		"address": "0xe590F02553b7e140ef191dcE5101d802BBD0b22f",
+		"earnings": "50"
+	},
+	{
+		"address": "0xd5D6242177279596B2672B9110c0771eD2E941E6",
+		"earnings": "50"
+	},
+	{
+		"address": "0x92c20F715472AAd2c7fc7284F0C2e4fAd39e28Af",
+		"earnings": "50"
+	},
+	{
+		"address": "0xb23BB3bAD506180046d060FF77dFe0185B6A032b",
+		"earnings": "50"
+	},
+	{
+		"address": "0xfa50671B1e38945774F0A5224160B45c8b545f29",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4c79D8aaA05333CC3Cb841162580502F871ed0E9",
+		"earnings": "50"
+	},
+	{
+		"address": "0x209b9eEB1336Cb5FFedD8D4e474840e553E812bD",
+		"earnings": "50"
+	},
+	{
+		"address": "0xcfbc091F167bBa962790E23Ee2DDA557938b8BAf",
+		"earnings": "50"
+	},
+	{
+		"address": "0xa3D5691D67873a2f77138c02e9178FF2e91Dd35a",
+		"earnings": "50"
+	},
+	{
+		"address": "0x53C4bDf99890D71B6AD8A00f343F408E10dc7a16",
+		"earnings": "50"
+	},
+	{
+		"address": "0x8652fd2e74d2276f58C30aD232DBeE5467AbcE4e",
+		"earnings": "50"
+	},
+	{
+		"address": "0xdD70fc7959a24335b8Ee1a072C3d9B0dDAD07540",
+		"earnings": "50"
+	},
+	{
+		"address": "0x34f2B150432044e2133B2445b28B723D30885164",
+		"earnings": "50"
+	},
+	{
+		"address": "0x57CC54493F60f2f821610c82D0F4f7BeEf7777C1",
+		"earnings": "50"
+	},
+	{
+		"address": "0xB77e77Dfb8F0f27379B1bdc5D17da612E2854D19",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4a11167B3cCbC6E0dA04FbeD42b55e79AEaEAC2e",
+		"earnings": "50"
+	},
+	{
+		"address": "0x5dA5F4c020f856aBdB168fd35c957D6006ba2edE",
+		"earnings": "50"
+	},
+	{
+		"address": "0x7E8D9704a750CAaC505d4A7D8F5d5782C909735C",
+		"earnings": "50"
+	},
+	{
+		"address": "0x677Ad574799e5D71151F8DfFdF8DA69bA51d6311",
+		"earnings": "50"
+	},
+	{
+		"address": "0x12B52e25bc0a78269a37dAd59D672702f324c3c6",
+		"earnings": "50"
+	},
+	{
+		"address": "0x6a342b28fea0f96238364E580a5f9783a690bbd1",
+		"earnings": "50"
+	},
+	{
+		"address": "0xF161E1Ad51fccD598e5C44a536F6659f33D6e0f4",
+		"earnings": "50"
+	},
+	{
+		"address": "0x064C2725b6e3450d7B3AAD53230a34eB1342327a",
+		"earnings": "50"
+	},
+	{
+		"address": "0xfD1c0251c29a81748662d553904cA9aA9bA66510",
+		"earnings": "50"
+	},
+	{
+		"address": "0x1C42F2fCc9c7F4a30dC15ACf9C047DDeCF39de06",
+		"earnings": "50"
+	},
+	{
+		"address": "0x908E8E8084d660f8f9054AA8Ad1B31380d04B08F",
+		"earnings": "50"
+	},
+	{
+		"address": "0xc0c2387bC5Ef8CD1E5Ca3897FfeB26E664632ecD",
+		"earnings": "50"
+	},
+	{
+		"address": "0x581b3d2CdCd3911d9Bbf503550C3f6C1f3c997b1",
+		"earnings": "50"
+	},
+	{
+		"address": "0x6b407f20a5fd127b3ba85adec219380e6a74524b",
+		"earnings": "50"
+	},
+	{
+		"address": "0x23EFC62a60Bfe4f0186cf19a57116780F86F1aa9",
+		"earnings": "50"
+	},
+	{
+		"address": "0xeA99bF156F30bdC748d452D8A4e178fBE762762d",
+		"earnings": "50"
+	},
+	{
+		"address": "0xeC49ff898172a72212988740669F596e81246411",
+		"earnings": "50"
+	},
+	{
+		"address": "0x27381d11b3E12D44dDD652D69AB4A9cfcD8C54f1",
+		"earnings": "50"
+	},
+	{
+		"address": "0x6127cb39Ac8e6066C469aCE0edcC3506feaAbF94",
+		"earnings": "50"
+	},
+	{
+		"address": "0x9d576ac210F3d07A3302D1EaF171663AD8fc8ee2",
+		"earnings": "50"
+	},
+	{
+		"address": "0x9BA35F9E8157A5D0722CAEbE1F51d7dF0d624885",
+		"earnings": "50"
+	},
+	{
+		"address": "0x950625692d2878EBEA00F43C364E6e3cd399a4e3",
+		"earnings": "50"
+	},
+	{
+		"address": "0x9928D2E3376cAa1DeB12A7C5000B961840fb6B30",
+		"earnings": "50"
+	},
+	{
+		"address": "0x1d2Cb350DDd121D8b2FC3ee187178d9E559E1d47",
+		"earnings": "50"
+	},
+	{
+		"address": "0x753a2b3f9547f9b37194Eb332f293E69452B3494",
+		"earnings": "50"
+	},
+	{
+		"address": "0x16A76445019eC9d8b1244F22A0d5b40Ca352bC74",
+		"earnings": "50"
+	},
+	{
+		"address": "0xa0Bf5b240634918c70d4ec9384DbD0111Ef40B42",
+		"earnings": "50"
+	},
+	{
+		"address": "0x1714084A279AB4c64c2ecBA96CDBcD319bc4eAA9",
+		"earnings": "50"
+	},
+	{
+		"address": "0x1FA6D728aDA68e3bE9E4bB14CaF6A0334BD276e7",
+		"earnings": "50"
+	},
+	{
+		"address": "0x8296a591315B5AF779d845e59B6daD303b4a855a",
+		"earnings": "50"
+	},
+	{
+		"address": "0x6CdBF3EC9d787636Fe6eb3714ff1a97145C62731",
+		"earnings": "50"
+	},
+	{
+		"address": "0xa7562fd65aed77ce637388449c30e82366d50e00",
+		"earnings": "50"
+	},
+	{
+		"address": "0x873d76049aC71619538849d1F97bC50645A5e6ff",
+		"earnings": "50"
+	},
+	{
+		"address": "0x1F011a94c44bb602849a1637B6ec2b37dCf51083",
+		"earnings": "50"
+	},
+	{
+		"address": "0x368C4E8933cf3577CcC394b4e05b4E03691493f1",
+		"earnings": "50"
+	},
+	{
+		"address": "0x2331EE3be6f9073A3eD578D82049D0e8f0aE7deb",
+		"earnings": "50"
+	},
+	{
+		"address": "0x77D7eA390fA7055103B6fD6C209fF3782fBAef4B",
+		"earnings": "50"
+	},
+	{
+		"address": "0xD383FA9FB743BAC75C3c5ca51Ff6Ce431b29016a",
+		"earnings": "50"
+	},
+	{
+		"address": "0x094ea0A9FaB54Fbb82B409046349E4c98C666099",
+		"earnings": "50"
+	},
+	{
+		"address": "0x81b02b28f1B6523da5786f017359B4c6A3288051",
+		"earnings": "50"
+	},
+	{
+		"address": "0x60c16D5d28Eaffb97973817E6f1a84811F439381",
+		"earnings": "50"
+	},
+	{
+		"address": "0xDa35E2105DD3C5A241FBcD1F624302D92a967057",
+		"earnings": "50"
+	},
+	{
+		"address": "0xF6c89F52d7316Aa6b5e3494879d8d8C65B8950f1",
+		"earnings": "50"
+	},
+	{
+		"address": "0xcC5a0524603f76aF25497f4872AedE358dCE12F8",
+		"earnings": "50"
+	},
+	{
+		"address": "0x24728C8168f4c75eB394498be69a021f053fD740",
+		"earnings": "50"
+	},
+	{
+		"address": "0x3eA8a88dC7C5930c6Ee57228A7BFe43A4f876fD3",
+		"earnings": "50"
+	},
+	{
+		"address": "0x76f5A0069f74df9B27B372649dce3e70F07EFC6E",
+		"earnings": "50"
+	},
+	{
+		"address": "0x2C4cB64B5A67e963c43fDcDc470b7301E125e42B",
+		"earnings": "50"
+	},
+	{
+		"address": "0xdD20Fb422a74B2751d53B41a549B7afbAcae1c74",
+		"earnings": "50"
+	},
+	{
+		"address": "0x2B511C8Ee935d320C3cC966136c19DbA1c11d012",
+		"earnings": "50"
+	},
+	{
+		"address": "0xA5c8A62F221aDeaf8A7c0BEF60044861D9C4b400",
+		"earnings": "50"
+	},
+	{
+		"address": "0xbebb6d2894c78fb48f3ccf87db902bdd7579aa01",
+		"earnings": "50"
+	},
+	{
+		"address": "0xc79D0e7aaE486dA24b4eB3961f13980D34747a19",
+		"earnings": "50"
+	},
+	{
+		"address": "0x1680C3D528F4814bb3997B8Ad4A2f361bD7020e7",
+		"earnings": "50"
+	},
+	{
+		"address": "0x08155E161A9CF3DB68E2661A451c9648c21F9976",
+		"earnings": "50"
+	},
+	{
+		"address": "0x17993eEcc0011F326718d710264A01d68ab01A8F",
+		"earnings": "50"
+	},
+	{
+		"address": "0xCb016db66774BD5dd798fC3Ac9c3BfcC06d68c84",
+		"earnings": "50"
+	},
+	{
+		"address": "0x79883345b0CfBFC2fD393cD3e999DCb4aAC7844d",
+		"earnings": "50"
+	},
+	{
+		"address": "0xfF30edA500a381dfe1F8A8545aca8F94e1197266",
+		"earnings": "50"
+	},
+	{
+		"address": "0xC7964Cf98Eb028aD27855C78B30E2474f920f7E5",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4AdA1B9D9fe28aBd9585f58cfEeD2169A39e1c6b",
+		"earnings": "50"
+	},
+	{
+		"address": "0xf0E929c7F1a9f4aD11D6255ae44FC4Bfc2CF973E",
+		"earnings": "50"
+	},
+	{
+		"address": "0xcF3A24407aae7c87bd800c47928C5F20Cd4764D2",
+		"earnings": "50"
+	},
+	{
+		"address": "0x980a4d296Bd6898A86F015b27F59A75d6Dba3AE9",
+		"earnings": "50"
+	},
+	{
+		"address": "0xF0c8ae32CE9ce7768Ceb10130893A50f0d3bB534",
+		"earnings": "50"
+	},
+	{
+		"address": "0x32E41CC382a5df2186d21f55ce069Eb1A08cd1B0",
+		"earnings": "50"
+	},
+	{
+		"address": "0x804A189685EfAE96Ae07DC5a8a31DF45037c50AF",
+		"earnings": "50"
+	},
+	{
+		"address": "0xFC8787681211A1992f96A4cAc1dAC3945b2ceB81",
+		"earnings": "50"
+	},
+	{
+		"address": "0x31d76E3be435BC01a94740eB23199f89DF4433bC",
+		"earnings": "50"
+	},
+	{
+		"address": "0x3729293DEcb29734494E0f34554DabaaDD69a120",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4dFc324752b179Cb99df556008E0Cd73894cC981",
+		"earnings": "50"
+	},
+	{
+		"address": "0x7E3E134279415418Bf6262cD50140A8A7FbfA019",
+		"earnings": "50"
+	},
+	{
+		"address": "0xA2CBc64a6abACcC2f90946446AEB4745b21903A7",
+		"earnings": "50"
+	},
+	{
+		"address": "0x0186Ac54Ba042Ed538f42a7b38BF15A22aE77b54",
+		"earnings": "50"
+	},
+	{
+		"address": "0x6516F67345e46F2C1A69d0aE8C8Dcb8F245d5daE",
+		"earnings": "50"
+	},
+	{
+		"address": "0x49f17dA43dc6d9A3D0bAA8E62AA4ac47cCFa1A58",
+		"earnings": "50"
+	},
+	{
+		"address": "0x447D0bdcEC7Ddc8AcDff5bBF61034AD7D259795c",
+		"earnings": "50"
+	},
+	{
+		"address": "0x3754a5b62CDAFD3aEf739224De3d039904e839e6",
+		"earnings": "50"
+	},
+	{
+		"address": "0x5e7C21DefE711bCd5CEa1B267d2e87F7913D510F",
+		"earnings": "50"
+	},
+	{
+		"address": "0xba532eeF4AB42586E166F42Edaa02fF08FC54b22",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4df154aCD7152440DbD103B6EAd6843D3a48061A",
+		"earnings": "50"
+	},
+	{
+		"address": "0x663786E29C4424464e814Be50D62A62d47E9F646",
+		"earnings": "50"
+	},
+	{
+		"address": "0x070a7Fa7C9D755813c35e49a660A56Aaa1Ae86eA",
+		"earnings": "50"
+	},
+	{
+		"address": "0xdFB3f203a768F91E204895245719Cc73bECB4507",
+		"earnings": "50"
+	},
+	{
+		"address": "0x46761f1D443531afc94080E9F93d7aAd7C75aE87",
+		"earnings": "50"
+	},
+	{
+		"address": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+		"earnings": "50"
+	},
+	{
+		"address": "0xd4fa23307a181B9ca567886eB5bCd5c8f8f8bB3E",
+		"earnings": "50"
 	}
 ]
