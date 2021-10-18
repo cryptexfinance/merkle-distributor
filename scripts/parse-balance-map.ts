@@ -48,7 +48,7 @@ export function parseBalanceMap(balances: OldFormat | NewFormat[]): MerkleDistri
 		const parsedNum = BigNumber.from(earnings);
 		if (parsedNum.lte(0)) throw new Error(`Invalid amount for account: ${account}`);
 
-		//TODO: change this to UNIVERSE.XYZ Reason
+		//TODO: change this to Cryptex Reason
 		const flags = {
 			isSOCKS: reasons.includes("socks"),
 			isLP: reasons.includes("lp"),

@@ -151,7 +151,7 @@ contract MerkleDistributorTest is DSTest {
    function test_endAirdrop() public {
       assertEq(token.balanceOf(treasury), 0);
       token.transfer(address(distributor), 10_000 ether);
-      hevm.warp(2 weeks + 1 seconds);
+      hevm.warp(4 weeks + 1 seconds);
       distributor.endAirdrop();
       assertEq(token.balanceOf(address(distributor)), 0);
       assertEq(token.balanceOf(treasury), 10_000 ether);

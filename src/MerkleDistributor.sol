@@ -22,7 +22,7 @@ contract MerkleDistributor is IMerkleDistributor {
       token = token_;
       merkleRoot = merkleRoot_;
       treasury = treasury_;
-      timeout = block.timestamp + 2 weeks;
+      timeout = block.timestamp + 4 weeks;
    }
 
    function isClaimed(uint256 index) public view override returns (bool) {
