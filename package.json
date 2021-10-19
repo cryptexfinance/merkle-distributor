@@ -10,7 +10,7 @@
 		"test": "./test.sh",
 		"coverage": "./coverage.sh",
 		"deploy": "npx hardhat deploy",
-		"generate-merkle-root": "ts-node scripts/generate-merkle-root.ts",
+		"generate-merkle-root": "ts-node scripts/generate-merkle-root.ts --input scripts/airdrop.json",
 		"generate-merkle-root:example": "ts-node scripts/generate-merkle-root.ts --input scripts/example.json"
 	},
 	"dependencies": {

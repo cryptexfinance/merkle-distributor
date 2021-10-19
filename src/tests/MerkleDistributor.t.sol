@@ -33,59 +33,59 @@ contract MerkleDistributorTest is DSTest {
 
    address treasury = 0xa54074b2cc0e96a43048d4a68472F7F046aC0DA8;
    bytes32 merkleRoot =
-      0x7cb4c259a57584fa8dbcf791cbcfe4b775e1b9aad918cfe2f0b7220d22bf7f84;
-   address account1 = 0x1FdD5814d3d23fBF93849B530c825eAd5f83D63f;
+      0xf3e2ea4c235de14ee793f105dbb1f54a4be38543c2996f3ea8a163363961d109;
+   address account1 = 0x0186Ac54Ba042Ed538f42a7b38BF15A22aE77b54;
    bytes32[] merkleProof1 = [
       bytes32(
-         0xc981948a9e5913fae75b920010feef51e488c21b8b6194bf19154c3160f860b5
+         0x0d95bd07c647d4aba5ad5248d6ea86f689e0a85432ee3d3b549cc94801edb786
       ),
       bytes32(
-         0x614c79ec9fc36857d7d56355335a2e6a552059cd309a540bf9d2a1500ea4a90e
+         0xfcd53d74b98e933c02b3b3cf6b988f82c461a03e0cd3d35e5f632136997c1358
       ),
       bytes32(
-         0xcddf56f5cb27d946efcc7988c5520a24e219f0b10d6d8370f395a643fe51ab2c
+         0x3d41e1190be9037773adad53ded577e7443778f5563e9dd79eee2dcd4f5db7b5
       ),
       bytes32(
-         0xc00b04023b8f4c27b568bfdd29efaf223f519d5c8266bd2dd47b021d27e2bfb5
+         0x65539c5aac2bfb5dc477ccfdaf0ad8033945178bc4dae4ca8b86a0bc06bbecfd
       ),
       bytes32(
-         0x6fc7dfa5adc4bf28739a464e646ca32a77ff49943eed06f9be5e92cabfbd90af
+         0x7e5906b6b64e87a73a9791b39be31bc91fce0cc3a94f310c76026871757d08e5
       ),
       bytes32(
-         0xb910bb330ad5be1b0dae32daf283e9510a951530b9d94e9688fb81a74dc0e999
+         0x8c980c8d7fef83dfd3e19c972ee3d28826cbbeb7f8107f31e56e16e805d600db
       ),
       bytes32(
-         0x394a45ebafd54ac2de62e6aabe3f347eeb77f827d6012f3e5f5677624111f13b
+         0x48e61261fdc7da92e379cbe77533b11d5c49750d04b208798f6d7774a8de265d
       ),
       bytes32(
-         0xeba6587c99653ffcbecb9a46fafd71d6bbd106aae746051e5226bc748cef96c1
+         0xf3f0cc06e84f018ce89e529119dfe5d3435ff03d8d72cf85ccc94945cda29596
       )
    ];
-   address account2 = 0x76927E2CCAb0084BD19cEe74F78B63134b9d181E;
+   address account2 = 0x02Fd85e93f38660623F0E3228a319A0Dafab8901;
    bytes32[] merkleProof2 = [
       bytes32(
-         0xc7a19c791a34139e40d5c7103a29686c24d3f39fd8daa7bf6425474cdcf7b6ef
+         0xd5f83ff4c6a8aeac795e6eb5299f189d1b3607c97d2437d8429b33ad8daa95ec
       ),
       bytes32(
-         0xdc440cf833902884f12587d2118ddb26bd0df73fb2f50779a889d9d78573b6b6
+         0xcaa3f5d0507f2afd15a0ceeb98651a72787d45010683f4904d2320e37649ca27
       ),
       bytes32(
-         0xcddf56f5cb27d946efcc7988c5520a24e219f0b10d6d8370f395a643fe51ab2c
+         0x868f547c5f517c4a7431baf4f2c63a9eee71159a37b7228b7ca503e8420b69bd
       ),
       bytes32(
-         0xc00b04023b8f4c27b568bfdd29efaf223f519d5c8266bd2dd47b021d27e2bfb5
+         0x0dfa4119ebd28170dc436f4b1e0ec0292cf402eb443713cd0e66b8bec9b717bb
       ),
       bytes32(
-         0x6fc7dfa5adc4bf28739a464e646ca32a77ff49943eed06f9be5e92cabfbd90af
+         0xc818964e0b2b91dcaa9806e807da3cb7fd7ecc97daced9830ea2e8515a6500ff
       ),
       bytes32(
-         0xb910bb330ad5be1b0dae32daf283e9510a951530b9d94e9688fb81a74dc0e999
+         0x49378176c3d375977f0cfea5ea21c593ae4ccf0dca8144bd77119ead42bb060c
       ),
       bytes32(
-         0x394a45ebafd54ac2de62e6aabe3f347eeb77f827d6012f3e5f5677624111f13b
+         0x047fe3d4474b8e980fc72bca8f3e338b722c49b5124a4d4948d30d2313cc1a8b
       ),
       bytes32(
-         0xeba6587c99653ffcbecb9a46fafd71d6bbd106aae746051e5226bc748cef96c1
+         0xf3f0cc06e84f018ce89e529119dfe5d3435ff03d8d72cf85ccc94945cda29596
       )
    ];
 
@@ -99,6 +99,7 @@ contract MerkleDistributorTest is DSTest {
    function invariants_values() public {
       assertEq(distributor.merkleRoot(), merkleRoot);
       assertEq(distributor.token(), address(token));
+      assertEq(distributor.timeout(), 4 weeks);
    }
 
    function testFail_invalidProof() public {
