@@ -11,7 +11,7 @@ const merkleDistributor: DeployFunction = async function (hre: HardhatRuntimeEnv
 		if (!merkleDistributor) {
 			const namedAccounts = await hre.getNamedAccounts();
 
-			const rewardToken = "	0xAa715DbD2ED909B7B7727dC864F3B78276D14A19"; // CTX
+			const rewardToken = "0xAa715DbD2ED909B7B7727dC864F3B78276D14A19"; // CTX
 			const merkleRoot = "0xf3e2ea4c235de14ee793f105dbb1f54a4be38543c2996f3ea8a163363961d109";
 			const treasury = "0xa54074b2cc0e96a43048d4a68472F7F046aC0DA8"; // Timelock
 

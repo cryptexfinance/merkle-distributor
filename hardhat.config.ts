@@ -8,6 +8,7 @@ import "hardhat-deploy";
 // Go to https://hardhat.org/config/ to learn more
 
 const mnemonic = process.env.DEPLOYER_MNEMONIC as string;
+const testMnemonic = process.env.TEST_MNEMONIC as string;
 
 const config: HardhatUserConfig = {
 	//@ts-ignore
@@ -43,7 +44,7 @@ const config: HardhatUserConfig = {
 		},
 		rinkeby: {
 			url: process.env.RINKEBY_API_URL,
-			accounts: { mnemonic: mnemonic },
+			accounts: { mnemonic: testMnemonic },
 		},
 	},
 };

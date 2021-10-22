@@ -4,8 +4,8 @@ pragma solidity 0.8.6;
 
 import "../MerkleDistributor.sol";
 import "../mocks/Ctx.sol";
-import "ds-test/test.sol";
-import "ds-test/hevm.sol";
+import "../../lib/ds-test/src/test.sol";
+import "../../lib/ds-test/src/hevm.sol";
 
 contract User {
    function doClaim(
